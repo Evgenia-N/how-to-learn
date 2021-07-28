@@ -54,6 +54,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  opacity: 0.7;
+}
+
 .header_main-illustration {
   position: absolute;
   right: 0;
@@ -221,6 +225,10 @@
   color: #2f80ed;
 }
 
+.feynman__link:hover {
+  opacity: 0.7;
+}
+
 .kaufman {
   min-height: 600px;
   position: relative;
@@ -290,22 +298,15 @@
   justify-content: space-between;
  }
 
- .footer__column_content_copyright {
-  flex-basis: 711px;
+.footer__column {
   display: flex;
   position: relative;
   flex-direction: column;
+}
+
+ .footer__column_content_copyright {
+  flex-basis: 711px;
   justify-content: space-between;
- }
-
- .footer__column_content_info {
-  display: flex;
-  flex-direction: column;
- }
-
- .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
  }
 
  .logo_place_footer {
@@ -344,6 +345,10 @@
   font-weight: normal;
   text-decoration: none;
  }
+
+ .footer__column-link:hover {
+  opacity: 0.7;
+}
 
 .footer__column-social-icon {
   padding-right: 10px;
